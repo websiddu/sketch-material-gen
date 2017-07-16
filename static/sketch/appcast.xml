@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Sketch Material</title>
+    <link>https://google-com-sketch-material.firebaseapp.com/static/sketch/appcast.xml</link>
+    <description>Sketch Material description</description>
+    <language>en</language>
+    <item>
+        <title>Version 0.1.5</title>
+        <enclosure url="https://google-com-sketch-material.firebaseapp.com/static/files/sketch-material-v0.1.6.zip" sparkle:version="0.1.6" length="783917" type="application/octet-stream" />
+      </item>
+    <item>
+        <title>Version 0.1.5</title>
+        <enclosure url="https://google-com-sketch-material.firebaseapp.com/static/files/sketch-material-v0.1.5.zip" sparkle:version="0.1.5" length="773769" type="application/octet-stream" />
+      </item>
+      <item>
+        <title>Version 0.1.4</title>
+        <enclosure url="https://google-com-sketch-material.firebaseapp.com/static/files/sketch-material-v0.1.4.zip" sparkle:version="0.1.4" length="788374" type="application/octet-stream" />
+      </item>
+  </channel>
+</rss>
