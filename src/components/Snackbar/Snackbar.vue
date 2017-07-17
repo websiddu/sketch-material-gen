@@ -21,7 +21,7 @@
               </div>
             </div>
           </div>
-          <side-footer specUrl="https://material.googleplex.com/components/snackbars-toasts.html" howto="snackbars-toasts"></side-footer>
+          <side-footer specUrl="https://material.io/guidelines/components/snackbars-toasts.html" howto="snackbars-toasts"></side-footer>
         </div>
         <div class="content" :class="screen + ' ' + hideButton +' screen'">
           <div class="snackbar" id="snackbar">
@@ -92,7 +92,7 @@ export default {
       window.location.hash = 'submit';
 
       this.$ga.set('checkProtocolTask', (gadata) => {
-        gadata.set('location', 'http://sketch-material.googleplex.com');
+        gadata.set('location', 'https://websiddu.github.io/sketch-material');
       });
       this.$ga.event('snackbars panel', 'submit', this.screen, this.hideTitle);
     },

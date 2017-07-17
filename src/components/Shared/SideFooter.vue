@@ -3,7 +3,7 @@
     <ul>
       <li> <a v-on:click="link" :href="specUrl">Spec</a></li>
       <li> <a v-on:click="link" :href="howToUrl">How to?</a></li>
-      <li> <a v-on:click="link" href="https://sketch-material.googleplex.com/contact" style="margin-right: 32px">Feedback</a> <a v-on:click="link" href="https://sketch-material.googleplex.com" class="small muted">{{this.version}}</a></li>
+      <li> <a v-on:click="link" href="https://github.com/websiddu/sketch-material/issues" style="margin-right: 32px">Feedback</a> <a v-on:click="link" href="https://websiddu.github.io/sketch-material/" class="small muted">{{this.version}}</a></li>
     </ul>
   </div>
 </template>
@@ -29,7 +29,7 @@ export default {
   },
   computed: {
     howToUrl() {
-      return `https://sketch-material.googleplex.com/help#${this.howto}`;
+      return `https://websiddu.github.io/sketch-material/help.html#${this.howto}`;
     },
   },
   data() {

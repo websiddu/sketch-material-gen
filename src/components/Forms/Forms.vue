@@ -82,7 +82,7 @@ export default {
       window.MDData = encodeURI(JSON.stringify(this.$store.state.form));
       window.location.hash = 'submit';
       this.$ga.set('checkProtocolTask', (gadata) => {
-        gadata.set('location', 'http://sketch-material.googleplex.com');
+        gadata.set('location', 'https://websiddu.github.io/sketch-material');
       });
       this.$ga.event('froms panel', 'submit');
     },

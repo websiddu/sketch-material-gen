@@ -28,7 +28,7 @@ export default {
       window.location.hash = 'applyStyles';
 
       this.$ga.set('checkProtocolTask', (gadata) => {
-        gadata.set('location', 'http://sketch-material.googleplex.com');
+        gadata.set('location', 'https://websiddu.github.io/sketch-material');
       });
       this.$ga.event('typography panel', 'click', style.name);
     },
