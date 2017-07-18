@@ -13,7 +13,7 @@
 export default {
   name: 'sideFooter',
   mounted() {
-    this.$http.get('https://raw.githubusercontent.com/websiddu/versions/master/sketch-material.json').then((response) => {
+    this.$http.get('https://raw.githubusercontent.com/websiddu/versions/master/sketch-material-public.json').then((response) => {
       this.version = JSON.parse(response.body).version;
     }, (err) => {
       console.log(err);
