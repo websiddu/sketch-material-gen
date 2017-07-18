@@ -6,8 +6,12 @@
     <description>Sketch Material description</description>
     <language>en</language>
     <item>
+        <title>Version 0.1.7</title>
+        <enclosure url="https://github.com/websiddu/sketch-material/raw/master/builds/versions/sketch-material.latest.zip" sparkle:version="0.1.7" length="783943" type="application/octet-stream" />
+      </item>
+    <item>
         <title>Version 0.1.6</title>
-        <enclosure url="https://github.com/websiddu/sketch-material/raw/master/builds/versions/sketch-material.latest.zip" sparkle:version="0.1.6" length="783948" type="application/octet-stream" />
+        <enclosure url="https://github.com/websiddu/sketch-material/raw/master/builds/versions/sketch-material.v.0.1.6.zip" sparkle:version="0.1.6" length="783948" type="application/octet-stream" />
       </item>
   </channel>
 </rss>
