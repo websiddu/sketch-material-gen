@@ -3,12 +3,17 @@
   <channel>
     <title>Sketch Material</title>
     <link>https://sketch-material.firebaseapp.com/static/sketch/appcast.xml</link>
-    <description>Sketch Material description</description>
+    <description>Sketch Material</description>
     <language>en</language>
+    <item>
+        <title>Version 0.1.10</title>
+        <enclosure url="https://github.com/websiddu/sketch-material/raw/master/builds/versions/sketch-material.latest.zip" sparkle:version="0.1.10" length="847418" type="application/octet-stream" />
+    </item>
+
     <item>
         <title>Version 0.1.7</title>
         <enclosure url="https://github.com/websiddu/sketch-material/raw/master/builds/versions/sketch-material.latest.zip" sparkle:version="0.1.7" length="783943" type="application/octet-stream" />
-      </item>
+    </item>
     <item>
         <title>Version 0.1.6</title>
         <enclosure url="https://github.com/websiddu/sketch-material/raw/master/builds/versions/sketch-material.v.0.1.6.zip" sparkle:version="0.1.6" length="783948" type="application/octet-stream" />

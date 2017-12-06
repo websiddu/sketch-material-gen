@@ -7,10 +7,12 @@ import Charts from '@/components/Charts/Charts';
 import Snackbar from '@/components/Snackbar/Snackbar';
 import Forms from '@/components/Forms/Forms';
 import Styles from '@/components/Styles/Styles';
+import Menu from '@/components/Menu/Menu';
+import Color from '@/components/Color/Color';
 
 Vue.use(Router);
 
-export default new Router({
+const router = new Router({
   mode: 'history',
   routes: [
     {
@@ -48,5 +50,17 @@ export default new Router({
       name: 'Styles',
       component: Styles,
     },
+    {
+      path: '/menu',
+      name: 'Menu',
+      component: Menu,
+    },
+    {
+      path: '/color',
+      name: 'Color',
+      component: Color,
+    },
   ],
 });
+
+export default router;
