@@ -6,10 +6,13 @@
     <description>Sketch Material</description>
     <language>en</language>
     <item>
-        <title>Version 0.1.10</title>
-        <enclosure url="https://github.com/websiddu/sketch-material/raw/master/builds/versions/sketch-material.latest.zip" sparkle:version="0.1.10" length="847418" type="application/octet-stream" />
+        <title>Version 0.1.11</title>
+        <enclosure url="https://github.com/websiddu/sketch-material/raw/master/builds/versions/sketch-material.latest.zip" sparkle:version="0.1.10" length="850096" type="application/octet-stream" />
     </item>
-
+    <item>
+        <title>Version 0.1.10</title>
+        <enclosure url="https://github.com/websiddu/sketch-material/raw/master/builds/versions/sketch-material.latest.zip" sparkle:version="0.1.10" length="850104" type="application/octet-stream" />
+    </item>
     <item>
         <title>Version 0.1.7</title>
         <enclosure url="https://github.com/websiddu/sketch-material/raw/master/builds/versions/sketch-material.latest.zip" sparkle:version="0.1.7" length="783943" type="application/octet-stream" />
